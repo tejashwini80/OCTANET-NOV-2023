@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+/*nav bar */
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    border: 1.2px solid rgb(125, 86, 161);
+    align-items: center;
+    border-radius: 20%;
+}
+
+.logo{
+    height: 50px;
+    width: 300px;
+    background-image: url("img\ octanet.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    /* color:#164863;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 1.2px; */
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px;
+}
+a:hover{
+    border: 2px solid rgb(82,34,82);
+}
+a:active{
+    background-color: #B15EFF;
+}
+#home{
+    border-radius: 20px 0px 20px 0px;
+    background-color:rgb(125, 86, 161);
+    color: white;
+}
+.container{
+    display: flex;
+    height: 450px;
+    /*justify-content: center; 
+    align-items: center;*/
+}
+.l-container{
+    flex-basis: 50%;
+    padding-left: 50px;
+
+}
+.l-container h1{
+    font-size: 50px;
+    padding-left: 40px;
+    justify-content: flex-start;
+    color: #B15EFF;
+}
+.l-container p{
+    font-size: 20px;
+    padding-left: 40px;
+    max-width: 400px;
+    color: #164863;
+}
+button{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(88, 61, 112);
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 10PX;
+    color: white;
+    margin-left: 40px;
+
+}
+.r-container{
+    height: 584px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("background.png");
+    background-size: 100% 100%;
+}
+.backpic{
+    height: 500px;
+    width: 650px;
+    background-image: url("r-container pic.png");
+    background-size: cover;
+
+}
+
+
+/*   footer  */
+footer{
+    height: 200px;
+    width: 100%;
+    background-image: url("wave.jpeg");
+    background-position: bottom;
+    background-size: 100%  40%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+footer h3{
+    color: #1e1328;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
